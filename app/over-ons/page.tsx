@@ -70,7 +70,7 @@ export default function Diensten() {
               <dl className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:divide-x sm:divide-gray-100 dark:sm:divide-gray-800">
                 <div className="flex flex-col px-4 py-8 text-center">
                   <dt className="order-last text-lg font-medium text-gray-500 dark:text-gray-400">
-                    Geluiddsstudio's
+                    Geluiddsstudio`&apos;`s
                   </dt>
 
                   <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">
