@@ -16,7 +16,9 @@ export default function Diensten() {
               <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
                 <Image
                   alt="iam foto"
-                  src="iam-studio.jpeg"
+                  src="/iam-studio.jpeg"
+                  width={500}
+                  height={500}
                   className="absolute inset-0 h-full w-full object-cover rounded-lg"
                 />
               </div>

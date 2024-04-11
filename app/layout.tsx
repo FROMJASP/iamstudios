@@ -6,7 +6,8 @@ import ContactButton from "./components/ui/contactbutton";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "iam studios™ | a sense of sound design",
+  title:
+    "iam studios™ | Voice-overs, Sound Design, Dubbing & Music Composition",
   description:
     "iam studios is gespecialiseerd in de opname van voice-overs, dubbing & lokalisatie, geluidsnabewerking, sound design en muziek compositie",
 };
@@ -17,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="dark">
+    <html lang="en">
       <body className={inter.className}>
         <nav>
           <div className="navbar bg-zinc-900 border-b-[0.1px] border-sky-950 shadow-xl">
