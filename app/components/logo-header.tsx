@@ -6,7 +6,7 @@ export function Logoheader() {
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center rounded-md">
       <div className="max-w-2/3">
-        <h1 className="md:text-7xl text-7xl sm:text-7xl lg:text-8xl font-bold text-center text-neutral-100 relative z-20">
+        <h1 className="md:text-7xl text-7xl sm:text-4xl lg:text-8xl font-bold text-center text-neutral-100 relative z-20">
           <span className="text-sky-500">iam</span>studios
         </h1>
       </div>
