@@ -19,6 +19,7 @@ export default function Portfolio() {
             <BackgroundGradient className="rounded-[22px] h-full p-4 sm:p-10 bg-white dark:bg-zinc-900">
               <Image
                 src={`/portfolio/nieuwebibliotheek.png`}
+                loading="lazy"
                 alt="de nieuwe bibliotheek"
                 height="400"
                 width="400"
@@ -55,6 +56,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/brotherostrich.jpeg`}
                 alt="my brother is an ostrich"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -87,6 +89,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/scrap.jpeg`}
                 alt="scrap"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -119,6 +122,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/blg-beleggen-sns.jpeg`}
                 alt="scrap"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -144,6 +148,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/skylanders.png`}
                 alt="Skylanders Superchargers"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -177,6 +182,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/nike-mercurial.png`}
                 alt="Nike Mercurial Superfly"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -211,6 +217,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/storm&sky.png`}
                 alt="Storm & Skye Secret of the Car Wash"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -249,6 +256,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/moeders-voor-moeders.png`}
                 alt="Moeders voor Moeders"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -285,6 +293,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/cevo.png`}
                 alt="Cevo"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -320,6 +329,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/dodaq.png`}
                 alt="Dodaq"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -352,6 +362,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/familywars.jpg`}
                 alt="Family Wars"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -386,6 +397,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/uber.jpg`}
                 alt="Family Wars"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -416,6 +428,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/penny-liefde.png`}
                 alt="Penny's: Liefde in de Lucht"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"
@@ -453,6 +466,7 @@ export default function Portfolio() {
               <Image
                 src={`/portfolio/laparadoja.png`}
                 alt="La Paradoja de Arrow"
+                loading="lazy"
                 height="400"
                 width="400"
                 className="object-contain"

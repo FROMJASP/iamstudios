@@ -12,6 +12,7 @@ export default function Home() {
             {/* Next/Image for optimized image serving. Adjust layout to fill and objectFit to cover */}
             <Image
               src="/iam-studio.jpeg"
+              loading="lazy"
               alt="iam-studios background image"
               layout="fill" // This makes the image cover the available space of the container
               objectFit="cover" // This makes the image cover the space without distorting aspect ratio

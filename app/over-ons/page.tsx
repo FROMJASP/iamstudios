@@ -16,6 +16,7 @@ export default function Diensten() {
               <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
                 <Image
                   alt="iam foto"
+                  loading="lazy"
                   src="/iam-studio.jpeg"
                   width={500}
                   height={500}
