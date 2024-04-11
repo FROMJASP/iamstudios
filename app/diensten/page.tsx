@@ -211,7 +211,7 @@ export default function Diensten() {
             </div>
 
             <div className="mt-12 text-center flex flex-col justify-center items-center">
-              <p className="pb-7 w-[50%]">
+              <p className="pb-7 min-w-1/2 sm:w-2/3">
                 Hebben we je interesse gewekt? We nodigen je graag uit om
                 contact met ons op te nemen. Samen kunnen we jouw project naar
                 een hoger niveau tillen.
