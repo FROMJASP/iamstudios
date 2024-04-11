@@ -10,11 +10,11 @@ export default function Portfolio() {
   return (
     <>
       <main className="bg-zinc-900 ">
-        <h1 className="text-center text-5xl font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent pt-28">
+        <h1 className="text-center text-5xl font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent pt-20">
           Werk waar we trots op zijn
         </h1>
-        <div className="-mt-20 flex items-center justify-center">
-          <div className="grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-3 pt-[200px] gap-10 px-40">
+        <div className="-mt-40 flex items-center justify-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 pt-[200px] gap-10 px-10 md:px-20 lg:px-40">
             {/* De nieuwe bibliotheek */}
             <BackgroundGradient className="rounded-[22px] h-full p-4 sm:p-10 bg-white dark:bg-zinc-900">
               <Image
