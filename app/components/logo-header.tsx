@@ -19,14 +19,16 @@ export function Logoheader() {
         <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
 
         {/* Core component */}
-        <SparklesCore
-          background="transparent"
-          minSize={0.4}
-          maxSize={1}
-          particleDensity={800}
-          className="opacity-10 w-[600px] h-[100px]"
-          particleColor="#949494"
-        />
+        <div className="w-xl relative">
+          <SparklesCore
+            background="transparent"
+            minSize={0.4}
+            maxSize={1}
+            particleDensity={1800}
+            className="opacity-10"
+            particleColor="#949494"
+          />
+        </div>
 
         {/* Radial Gradient to prevent sharp edges */}
         <div className="flex flex-col items-center justify-center relative space-y-4  -mt-[82px]">
