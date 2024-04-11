@@ -421,7 +421,7 @@ export default function Portfolio() {
                 className="object-contain"
               />
               <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-                Penny's: Liefde in de Lucht
+                Penny`&apos;`s: Liefde in de Lucht
               </p>
 
               <p className="text-sm text-neutral-600 dark:text-neutral-400">

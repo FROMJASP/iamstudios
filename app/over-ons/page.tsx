@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Diensten() {
   return (
     <>
@@ -12,7 +14,7 @@ export default function Diensten() {
 
             <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
               <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-                <img
+                <Image
                   alt="iam foto"
                   src="iam-studio.jpeg"
                   className="absolute inset-0 h-full w-full object-cover rounded-lg"
@@ -65,7 +67,7 @@ export default function Diensten() {
               <dl className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:divide-x sm:divide-gray-100 dark:sm:divide-gray-800">
                 <div className="flex flex-col px-4 py-8 text-center">
                   <dt className="order-last text-lg font-medium text-gray-500 dark:text-gray-400">
-                    Geluiddsstudio's
+                    Geluiddsstudio`&apos;`s
                   </dt>
 
                   <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">
