@@ -5,11 +5,13 @@ import { SparklesCore } from "../components/ui/sparkles";
 export function Logoheader() {
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center rounded-md">
-      <h1 className="md:text-7xl text-5xl sm:text-7xl lg:text-7xl font-bold text-center text-neutral-100 relative z-20">
-        <span className="text-sky-500">iam</span>studios
-      </h1>
+      <div className="max-w-2/3">
+        <h1 className="md:text-7xl text-7xl sm:text-7xl lg:text-7xl font-bold text-center text-neutral-100 relative z-20">
+          <span className="text-sky-500">iam</span>studios
+        </h1>
+      </div>
 
-      <div className=" relative ">
+      <div className=" relative max-w-sm">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
@@ -28,7 +30,7 @@ export function Logoheader() {
 
         {/* Radial Gradient to prevent sharp edges */}
         <div className="flex flex-col items-center justify-center relative space-y-4  -mt-[82px]">
-          <p className="text-center text-neutral-200 max-w-md text-sm sm:text-md">
+          <p className="text-center text-neutral-200 max-w-[2/3] text-sm sm:text-md">
             Geluidsstudio&apos;s voor voice-overs & dubbing • Geluidsnabewerking
             • Sound design • Muziekcompositie
           </p>
@@ -38,7 +40,6 @@ export function Logoheader() {
               <a href="/over-ons">
                 <span>Vertel meer →</span>
               </a>
-              <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-sky-500 to-transparent" />
             </button>
           </div>
         </div>
