@@ -5,7 +5,7 @@ import { SparklesCore } from "../components/ui/sparkles";
 export function Logoheader() {
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center rounded-md">
-      <h1 className="md:text-7xl text-7xl lg:text-7xl font-bold text-center text-neutral-100 relative z-20">
+      <h1 className="md:text-7xl text-5xl sm:text-7xl lg:text-7xl font-bold text-center text-neutral-100 relative z-20">
         <span className="text-sky-500">iam</span>studios
       </h1>
 
@@ -28,14 +28,14 @@ export function Logoheader() {
 
         {/* Radial Gradient to prevent sharp edges */}
         <div className="flex flex-col items-center justify-center relative space-y-4  -mt-[82px]">
-          <p className="text-center text-neutral-200 max-w-md">
+          <p className="text-center text-neutral-200 max-w-md text-sm sm:text-md">
             Geluidsstudio&apos;s voor voice-overs & dubbing • Geluidsnabewerking
             • Sound design • Muziekcompositie
           </p>
 
           <div>
             <button className="px-4 py-2 backdrop-blur-sm border bg-zinc-300/10 border-sky-500/20 text-white mx-auto text-center rounded-full">
-              <a href="/diensten">
+              <a href="/over-ons">
                 <span>Vertel meer →</span>
               </a>
               <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-sky-500 to-transparent" />
